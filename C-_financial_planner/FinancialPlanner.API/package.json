@@ -1,0 +1,21 @@
+{
+  "name": "FinancialPlanner.API",
+  "version": "1.0.0",
+  "dependencies": {
+    "angularjs": "0.0.1",
+    "bootstrap": "^4.3.1",
+    "bower": "^1.8.8",
+    "jquery": "^3.4.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
+}

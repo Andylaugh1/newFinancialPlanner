@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="financialPlannerApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello This is The Correct Page</title>
+    <link rel="stylesheet" href="/app/css/bootstrap.min.css"/>
+</head>
+<body>
+    <div ng-controller="TransactionController">
+        <div style="padding: 25px">
+            <div class="row">
+                <h2>Please select which transactions you want to view</h2>
+                <div>
+                    <button ng-click="showAllTransactions()">Show All Transactions</button>
+                </div>
+                <div>
+                    <label for="transactionSearch">Search for a transaction by Id:</label>
+                    <input name="transactionSearch" type="number" ng-model="transactionIdToSearch">
+                    <button type="submit" ng-click="findTransactionById(transactionIdToSearch)"></button>
+                </div>   
+            </div>
+            <div>
+                <div ng-show="displayTransactions" ng-repeat="transaction in transactions">
+                    <h4>Transaction {{transaction.id}}:
+                        <ul>
+                            <li >{{ transaction.value }}</li>
+                            <li >{{ transaction.name }}</li>
+                            <li >{{ transaction.party }}</li>
+                        </ul>
+                    </h4>           
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/app/lib/jquery.min.js"></script>
+    <script src="/app/lib/underscore-1.4.4.min.js"></script>
+    <script src="/app/lib/bootstrap.js"></script>
+    <script src="/app/lib/bootstrap.min.js"></script>
+    <script src="/app/lib/angular/angular.js"></script>
+    <script src="/app/js/app.js"></script>
+    <script src="/app/js/Controllers/TransactionController.js"></script>
+    <script src="/app/js/Services/TransactionsService.js"></script>
+
+</body>
+</html>

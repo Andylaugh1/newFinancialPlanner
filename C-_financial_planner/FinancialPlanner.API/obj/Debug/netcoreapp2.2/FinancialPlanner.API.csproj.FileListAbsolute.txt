@@ -1,0 +1,14 @@
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp2.2/FinancialPlanner.API.deps.json
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp2.2/FinancialPlanner.API.runtimeconfig.json
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp2.2/FinancialPlanner.API.runtimeconfig.dev.json
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp2.2/FinancialPlanner.API.dll
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp2.2/FinancialPlanner.API.pdb
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp2.2/FinancialPlanner.API.csprojAssemblyReference.cache
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp2.2/FinancialPlanner.API.csproj.CoreCompileInputs.cache
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp2.2/FinancialPlanner.API.RazorAssemblyInfo.cache
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp2.2/FinancialPlanner.API.RazorAssemblyInfo.cs
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp2.2/FinancialPlanner.API.AssemblyInfoInputs.cache
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp2.2/FinancialPlanner.API.AssemblyInfo.cs
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp2.2/FinancialPlanner.API.RazorTargetAssemblyInfo.cache
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp2.2/FinancialPlanner.API.dll
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp2.2/FinancialPlanner.API.pdb

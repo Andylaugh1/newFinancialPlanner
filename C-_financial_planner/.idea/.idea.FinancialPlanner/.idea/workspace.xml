@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f56a91f-2fde-4c28-b6d7-768c5238150a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - FinancialPlanner@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - FinancialPlanner@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - FinancialPlanner@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="FinancialPlanner: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - FinancialPlanner@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="FinancialPlanner: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - FinancialPlanner@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="FinancialPlanner: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - FinancialPlanner@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="FinancialPlanner: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - FinancialPlanner@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="FinancialPlanner: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="sequences" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - FinancialPlanner@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="user: database" type="162271b6:PgImplModel$Database" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/TransactionsApiController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8BFC7925-D8B5-4A6D-A373-440B854E2CFC/32/75990dec/ConfigureServicesBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Enums/BankAccountType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Models/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlannerTests/AccountHolderTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/FinancialPlannerContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/IMainRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/FinancialPlannerContextExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/MainRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Service Layer/TransactionService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/DummyController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Controllers/TransactionsApiController.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/MainService.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/999f9155-d07f-47e4-86b5-d4b5a14ee864/console.sql" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/TransactionController.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/IMainService.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/IMainRepository.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/IService.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Program.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/FinancialPlannerContext.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/MainRepository.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Application/App.js" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/TransactionsApiController.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/TransactionService.cs" />
+        <option value="$PROJECT_DIR$/App/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/App/App.csproj" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/FinancialPlanner.API.csproj" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/bower.json" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/package.json" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/app/app.js" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/app.js" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/js/Services/TransactionsService.js" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/js/Controllers/TransactionController.js" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/index.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/69eecd45-fd6b-4141-b9f3-b8628282e4da/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/69eecd45-fd6b-4141-b9f3-b8628282e4da/console_2.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/69eecd45-fd6b-4141-b9f3-b8628282e4da/console.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RpRVddUyWJgnfe7aNKgAZUQqrf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.FinancialPlanner.API">
+    <configuration name="FinancialPlanner.API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FinancialPlanner.API/FinancialPlanner.API.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="FinancialPlanner.API" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinancialPlanner.API: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FinancialPlanner.API/FinancialPlanner.API.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.FinancialPlanner.API" />
+      <item itemvalue=".NET Launch Settings Profile.FinancialPlanner.API: IIS Express" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@591adc39" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@591adc39" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4752c05" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@591adc39" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@16796dbb" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f56a91f-2fde-4c28-b6d7-768c5238150a" name="Default Changelist" comment="" />
+      <created>1570362077134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570362077134</updated>
+      <workItem from="1570362081222" duration="618000" />
+      <workItem from="1570363070376" duration="5675000" />
+      <workItem from="1570473048708" duration="224000" />
+      <workItem from="1570473474003" duration="10625000" />
+      <workItem from="1570568780947" duration="3833000" />
+      <workItem from="1571948825011" duration="116000" />
+      <workItem from="1571948959466" duration="3173000" />
+      <workItem from="1573068776720" duration="114000" />
+      <workItem from="1573069037868" duration="642000" />
+      <workItem from="1573242183086" duration="16364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/FinancialPlanner.API/Startup.cs</url>
+          <line>82</line>
+          <properties documentPath="$PROJECT_DIR$/FinancialPlanner.API/Startup.cs" initialLine="82">
+            <startOffsets>
+              <option value="2996" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3047" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/TransactionsApiController.cs</url>
+          <line>35</line>
+          <properties documentPath="$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/TransactionsApiController.cs" initialLine="35">
+            <startOffsets>
+              <option value="1008" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1040" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
