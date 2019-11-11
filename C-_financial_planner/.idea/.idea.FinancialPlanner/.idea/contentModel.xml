@@ -91,7 +91,6 @@
               <e p="jquery.min.js" t="Include" />
               <e p="underscore-1.4.4.min.js" t="Include" />
             </e>
-            <e p="Views" t="Include" />
           </e>
           <e p="index.html" t="Include" />
           <e p="TransactionPage.html" t="Include" />

@@ -1,3 +1,3 @@
 'use strict';
 
-var financialPlannerApp = angular.module('financialPlannerApp', []);
+var financialPlannerApp = angular.module('financialPlannerApp', ['ngResource']);

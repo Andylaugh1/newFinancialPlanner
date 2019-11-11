@@ -3,24 +3,31 @@
 financialPlannerApp.controller('TransactionController',
     function TransactionController($scope, transactionsService) {
 
-        $scope.displayAllTransactions = false;
+        $scope.displayTransactions = false;
         $scope.transactionIdToSearch = null;
         $scope.transactions = [];
 
-        $scope.showAllTransactions = function showAllTransactions() {
-            transactionsService.getTransactions(function(transactions) {
-                $scope.transactions = transactions;
-                $scope.displayTransactions = true;
-            });
-        }
+        $scope.getAllTransactions = function getAllTransactions() {
+            $scope.transactions = [];
+            transactionsService.getTransactions()
+            .$promise
+            .then(function(transactions) { $scope.transactions = transactions; })
+            .catch(function(response) { console.log(response); }
+            );
+            $scope.displayTransactions = true;
+        };
 
-        $scope.findTransactionById  = function findTransactionById(transactionIdToSearch) {
-            transactionsService.getTransactionById(transactionIdToSearch, function(transaction) {
-                $scope.transactions = transaction;
-                $scope.displayTransactions = true;
-            });
+        $scope.getSingleTransactionById  = function getSingleTransactionById() {
+            $scope.transactions = [];
+            transactionsService.getTransactionById($scope.transactionIdToSearch)
+            .$promise
+            .then(function(transaction) { $scope.transactions.push(transaction); })
+            .catch(function(response) { console.log(response); }
+            );
+            $scope.displayTransactions = true;
             console.log($scope.transactions);
-        }
-        
+        };
+        console.log($scope);
     }
+
 );

@@ -1,23 +1,12 @@
-financialPlannerApp.factory('transactionsService', function ($http, $log) {
+financialPlannerApp.factory('transactionsService', function ($resource, $log) {
+    var resource = $resource('/api/transactions/:id', {id: '@id'});
     return {
-        getTransactions: function(successCB){
-            $http({method: 'GET', url: '/api/transactions'}).
-            success(function (data, status, headers, config) {
-                successCB(data);
-            }).
-            error(function (data, status, headers, config) {
-                $log.warn(data, status, headers(), config);
-            });
+        getTransactions: function(){
+            return resource.query();
         },
 
-        // getTransactionById: function(id, successCB){
-        //     $http({method: 'GET', url: '/api/transactions/' + id}).
-        //     success(function (data, status, headers, config) {
-        //         successCB(data);
-        //     }).
-        //     error(function (data, status, headers, config) {
-        //         $log.warn(data, status, headers(), config);
-        //     });
-        // }
+        getTransactionById: function(id){
+            return resource.get({id:id});
+        }
     }
 });
