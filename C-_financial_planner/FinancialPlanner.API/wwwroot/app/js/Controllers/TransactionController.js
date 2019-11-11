@@ -25,7 +25,6 @@ financialPlannerApp.controller('TransactionController',
             .catch(function(response) { console.log(response); }
             );
             $scope.displayTransactions = true;
-            console.log($scope.transactions);
         };
         console.log($scope);
     }

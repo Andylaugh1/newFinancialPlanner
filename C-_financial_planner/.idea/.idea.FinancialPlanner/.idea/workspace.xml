@@ -96,6 +96,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/TransactionsApiController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8BFC7925-D8B5-4A6D-A373-440B854E2CFC/32/75990dec/ConfigureServicesBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/BankAccountApiController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Service Layer/BankAccountService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Enums/BankAccountType.cs" root0="FORCE_HIGHLIGHTING" />
@@ -116,11 +118,9 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/999f9155-d07f-47e4-86b5-d4b5a14ee864/console.sql" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/TransactionController.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/IMainService.cs" />
-        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/IMainRepository.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/IService.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Program.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/FinancialPlannerContext.cs" />
-        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/MainRepository.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Application/App.js" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/TransactionsApiController.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/TransactionService.cs" />
@@ -133,13 +133,17 @@
         <option value="$PROJECT_DIR$/FinancialPlanner.API/package.json" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/app/app.js" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/app.js" />
-        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/index.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/69eecd45-fd6b-4141-b9f3-b8628282e4da/console_1.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/69eecd45-fd6b-4141-b9f3-b8628282e4da/console_2.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/69eecd45-fd6b-4141-b9f3-b8628282e4da/console.sql" />
-        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/TransactionPage.html" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/js/Services/TransactionsService.js" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/js/Controllers/TransactionController.js" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/index.html" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/TransactionPage.html" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/IMainRepository.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/MainRepository.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/BankAccountService.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/BankAccountApiController.cs" />
       </list>
     </option>
   </component>
@@ -248,7 +252,7 @@
       <workItem from="1573068776720" duration="114000" />
       <workItem from="1573069037868" duration="642000" />
       <workItem from="1573242183086" duration="16977000" />
-      <workItem from="1573476917272" duration="1663000" />
+      <workItem from="1573476917272" duration="4669000" />
     </task>
     <servers />
   </component>

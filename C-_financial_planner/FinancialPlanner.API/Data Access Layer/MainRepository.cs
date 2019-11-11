@@ -16,6 +16,7 @@ namespace FinancialPlanner.API.Data_Access_Layer
             this.Context = context;
         }
 
+        // All transaction queries and commands
         public virtual IEnumerable<Transaction> GetAllTransactions()
         {
             return this.Context.Transactions.ToList();
@@ -36,6 +37,30 @@ namespace FinancialPlanner.API.Data_Access_Layer
                 transactionsToReturn.Add(this.Context.Transactions.Where(t => t.Id == transactionId).FirstOrDefault());
             }
             return transactionsToReturn;
+        }
+        
+        // All Bank Account commands and queries
+        
+        public virtual IEnumerable<BankAccount> GetAllBankAccounts()
+        {
+            return this.Context.BankAccounts.ToList();
+        }
+
+        public virtual BankAccount GetBankAccountById(int bankAccountId)
+        {
+            BankAccount bankAccount;
+            bankAccount = this.Context.BankAccounts.Where(t => t.Id == bankAccountId).FirstOrDefault();
+            return bankAccount;
+        }
+
+        public virtual IEnumerable<BankAccount> GetBankAccountsForIdSet(IEnumerable<int> bankAccountIds)
+        {
+            var bankAccountsToReturn = new List<BankAccount>();
+            foreach(var accountId in bankAccountIds)
+            {
+                bankAccountsToReturn.Add(this.Context.BankAccounts.Where(t => t.Id == accountId).FirstOrDefault());
+            }
+            return bankAccountsToReturn;
         }
     }
 }
