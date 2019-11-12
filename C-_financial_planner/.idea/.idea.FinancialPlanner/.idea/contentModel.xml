@@ -70,10 +70,12 @@
             <e p="js" t="Include">
               <e p="app.js" t="Include" />
               <e p="Controllers" t="Include">
+                <e p="BankAccountController.js" t="Include" />
                 <e p="MainController.js" t="Include" />
                 <e p="TransactionController.js" t="Include" />
               </e>
               <e p="Services" t="Include">
+                <e p="BankAccountService.js" t="Include" />
                 <e p="TransactionsService.js" t="Include" />
               </e>
             </e>
@@ -94,6 +96,7 @@
               <e p="underscore-1.4.4.min.js" t="Include" />
             </e>
           </e>
+          <e p="BankAccountPage.html" t="Include" />
           <e p="index.html" t="Include" />
           <e p="TransactionPage.html" t="Include" />
         </e>

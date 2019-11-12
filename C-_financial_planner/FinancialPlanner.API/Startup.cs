@@ -41,6 +41,7 @@ namespace FinancialPlanner.API
             services.AddDbContext<FinancialPlannerContext>(options => options.UseNpgsql(connectionString));
             services.AddScoped<IMainRepository, MainRepository>();
             services.AddScoped<TransactionService, TransactionService>();
+            services.AddScoped<BankAccountService, BankAccountService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>(); 
             services.AddCors(options =>
             {

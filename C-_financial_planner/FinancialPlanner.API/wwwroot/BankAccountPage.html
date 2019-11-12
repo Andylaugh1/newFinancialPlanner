@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="financialPlannerApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello This is The Correct Page</title>
+    <link rel="stylesheet" href="/app/css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <ul class="nav">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/TransactionPage.html">Transactions</a></li>
+                <li><a href="/BankAccountPage.html">Bank Accounts</a></li>
+            </ul>
+        </div>
+    </div>
+    <div ng-controller="BankAccountController">
+        <div style="padding: 25px">
+            <h2>Account Overview</h2>
+            <div>
+                <label for="accountOverviewButton"></label>
+                <button id="accountOverviewButton" ng-click="getAllAccounts()">Click here to see an overview of your bank accounts</button>
+            </div>
+            <table ng-show="displayAccounts" style="border: 1px solid #0e90d2; align-content: center; width: border-box">
+                <tr>
+                    <th>Account Name</th>
+                    <th>Account Type</th>
+                    <th>Account Number</th>
+                    <th>Sort Code</th>
+                    <th>Balance</th>
+                </tr>
+                <tbody ng-repeat="account in bankAccounts" style="align-content: center">
+                <tr>
+                    <td>{{account.accountName}}</td>
+                    <td>{{account.accountType}}</td>
+                    <td>{{account.accountNumber}}</td>
+                    <td>{{account.sortCode}}</td>
+                    <td>{{account.balance}}</td>
+                </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="/app/lib/jquery.min.js"></script>
+<script src="/app/lib/underscore-1.4.4.min.js"></script>
+<script src="/app/lib/bootstrap.js"></script>
+<script src="/app/lib/bootstrap.min.js"></script>
+<script src="/app/lib/angular/angular.js"></script>
+<script src="/app/lib/angular/angular-resource.js"></script>
+<script src="/app/js/app.js"></script>
+<script src="/app/js/Controllers/BankAccountController.js"></script>
+<script src="/app/js/Services/BankAccountService.js"></script>
+
+</body>
+</html>

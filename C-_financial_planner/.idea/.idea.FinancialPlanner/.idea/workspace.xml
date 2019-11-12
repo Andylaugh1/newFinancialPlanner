@@ -84,8 +84,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="package.json" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -102,6 +102,7 @@
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Enums/BankAccountType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Models/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Models/BankAccount.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlannerTests/AccountHolderTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/FinancialPlannerContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/IMainRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -127,7 +128,6 @@
         <option value="$PROJECT_DIR$/App/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/App/App.csproj" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/FinancialPlanner.API.csproj" />
-        <option value="$PROJECT_DIR$/FinancialPlanner.API/Startup.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/bower.json" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/package.json" />
@@ -138,12 +138,17 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/69eecd45-fd6b-4141-b9f3-b8628282e4da/console.sql" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/js/Services/TransactionsService.js" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/js/Controllers/TransactionController.js" />
-        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/index.html" />
-        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/TransactionPage.html" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/IMainRepository.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/MainRepository.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/BankAccountService.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/BankAccountApiController.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/TransactionPage.html" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/BankAccountPage.html" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/index.html" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/js/Services/BankAccountService.js" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/js/Controllers/BankAccountController.js" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/BankAccountPage.html" />
       </list>
     </option>
   </component>
@@ -252,7 +257,7 @@
       <workItem from="1573068776720" duration="114000" />
       <workItem from="1573069037868" duration="642000" />
       <workItem from="1573242183086" duration="16977000" />
-      <workItem from="1573476917272" duration="4669000" />
+      <workItem from="1573476917272" duration="7529000" />
     </task>
     <servers />
   </component>
