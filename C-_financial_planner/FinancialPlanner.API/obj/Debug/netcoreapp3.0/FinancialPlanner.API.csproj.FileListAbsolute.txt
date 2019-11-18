@@ -5,8 +5,6 @@
 /Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp3.0/FinancialPlanner.API.runtimeconfig.dev.json
 /Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp3.0/FinancialPlanner.API.dll
 /Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp3.0/FinancialPlanner.API.pdb
-/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp3.0/EntityFramework.SqlServer.dll
-/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp3.0/EntityFramework.dll
 /Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp3.0/System.Net.Http.Formatting.dll
 /Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.dll
 /Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -33,3 +31,4 @@
 /Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp3.0/FinancialPlanner.API.pdb
 /Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp3.0/package-lock.json
 /Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp3.0/package.json
+/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.dll

@@ -40,12 +40,11 @@ namespace FinancialPlanner.API.Data_Access_Layer
         }
         
         // All Bank Account commands and queries
-        
         public virtual IEnumerable<BankAccount> GetAllBankAccounts()
         {
             return this.Context.BankAccounts.ToList();
         }
-
+        
         public virtual BankAccount GetBankAccountById(int bankAccountId)
         {
             BankAccount bankAccount;
@@ -61,6 +60,32 @@ namespace FinancialPlanner.API.Data_Access_Layer
                 bankAccountsToReturn.Add(this.Context.BankAccounts.Where(t => t.Id == accountId).FirstOrDefault());
             }
             return bankAccountsToReturn;
+        }
+
+        
+        
+        
+        // All Account Holder commands and queries
+        public IEnumerable<AccountHolder> GetAllAccountHolders()
+        {
+            return this.Context.AccountHolders.ToList();
+        }
+
+        public virtual AccountHolder GetAccountHolderById(int accountHolderId)
+        {
+            AccountHolder accountHolder;
+            accountHolder = this.Context.AccountHolders.Where(t => t.Id == accountHolderId).FirstOrDefault();
+            return accountHolder;
+        }
+
+        public virtual IEnumerable<AccountHolder> GetAccountHoldersForIdSet(IEnumerable<int> accountHolderIds)
+        {
+            var accountHoldersToReturn = new List<AccountHolder>();
+            foreach(var holderId in accountHolderIds)
+            {
+                accountHoldersToReturn.Add(this.Context.AccountHolders.Where(t => t.Id == holderId).FirstOrDefault());
+            }
+            return accountHoldersToReturn;
         }
     }
 }

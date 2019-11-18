@@ -96,8 +96,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/TransactionsApiController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8BFC7925-D8B5-4A6D-A373-440B854E2CFC/32/75990dec/ConfigureServicesBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F7983DF-5846-436F-8E9C-B779867785C7/5e/191dbc76/DbLoggerCategory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/BankAccountApiController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Service Layer/BankAccountService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/AccountHolderApiController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Enums/BankAccountType.cs" root0="FORCE_HIGHLIGHTING" />
@@ -109,6 +111,7 @@
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/FinancialPlannerContextExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/MainRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Service Layer/TransactionService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Service Layer/AccountHolderService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/DummyController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -121,13 +124,11 @@
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/IMainService.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/IService.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Program.cs" />
-        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/FinancialPlannerContext.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Application/App.js" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/TransactionsApiController.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/TransactionService.cs" />
         <option value="$PROJECT_DIR$/App/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/App/App.csproj" />
-        <option value="$PROJECT_DIR$/FinancialPlanner.API/FinancialPlanner.API.csproj" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/bower.json" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/package.json" />
@@ -138,10 +139,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/69eecd45-fd6b-4141-b9f3-b8628282e4da/console.sql" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/js/Services/TransactionsService.js" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/js/Controllers/TransactionController.js" />
-        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/IMainRepository.cs" />
-        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/MainRepository.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/BankAccountService.cs" />
-        <option value="$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/BankAccountApiController.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/TransactionPage.html" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/BankAccountPage.html" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/index.html" />
@@ -149,6 +147,14 @@
         <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/app/js/Controllers/BankAccountController.js" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/Startup.cs" />
         <option value="$PROJECT_DIR$/FinancialPlanner.API/wwwroot/BankAccountPage.html" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/BankAccountApiController.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/ApiLayer/Controllers/AccountHolderApiController.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Service Layer/AccountHolderService.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/MainRepository.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/IMainRepository.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlannerTests/AccountHolderTest.cs" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/FinancialPlanner.API.csproj" />
+        <option value="$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/FinancialPlannerContext.cs" />
       </list>
     </option>
   </component>
@@ -219,17 +225,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@591adc39" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d9467a00" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@591adc39" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4752c05" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@591adc39" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@16796dbb" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d9467a00" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2505f72" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -257,7 +258,8 @@
       <workItem from="1573068776720" duration="114000" />
       <workItem from="1573069037868" duration="642000" />
       <workItem from="1573242183086" duration="16977000" />
-      <workItem from="1573476917272" duration="7529000" />
+      <workItem from="1573476917272" duration="7697000" />
+      <workItem from="1573761650779" duration="4216000" />
     </task>
     <servers />
   </component>

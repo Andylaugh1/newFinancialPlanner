@@ -8,6 +8,7 @@
       <e p="FinancialPlanner.API" t="IncludeRecursive">
         <e p="ApiLayer" t="Include">
           <e p="Controllers" t="Include">
+            <e p="AccountHolderApiController.cs" t="Include" />
             <e p="BankAccountApiController.cs" t="Include" />
             <e p="DummyController.cs" t="Include" />
             <e p="TransactionsApiController.cs" t="Include" />
@@ -25,7 +26,11 @@
           <e p="BankAccountType.cs" t="Include" />
         </e>
         <e p="FinancialPlanner.API.csproj" t="IncludeRecursive" />
-        <e p="Migrations" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20191118103832_initial.cs" t="Include" />
+          <e p="20191118103832_initial.Designer.cs" t="Include" />
+          <e p="FinancialPlannerContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="AccountHolder.cs" t="Include" />
           <e p="BankAccount.cs" t="Include" />
@@ -56,6 +61,7 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Service Layer" t="Include">
+          <e p="AccountHolderService.cs" t="Include" />
           <e p="BankAccountService.cs" t="Include" />
           <e p="TransactionService.cs" t="Include" />
         </e>
