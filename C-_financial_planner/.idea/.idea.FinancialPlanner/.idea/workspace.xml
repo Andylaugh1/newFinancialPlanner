@@ -22,10 +22,6 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="PostgreSQL - FinancialPlanner@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
@@ -104,6 +100,7 @@
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Enums/BankAccountType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Models/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Models/AccountHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Models/BankAccount.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlannerTests/AccountHolderTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinancialPlanner.API/Data Access Layer/FinancialPlannerContext.cs" root0="FORCE_HIGHLIGHTING" />
@@ -168,7 +165,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -232,6 +229,11 @@
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d9467a00" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2505f72" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d9467a00" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@46c8d2cc" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
           </expand>
           <select />
         </treeState>
@@ -259,7 +261,7 @@
       <workItem from="1573069037868" duration="642000" />
       <workItem from="1573242183086" duration="16977000" />
       <workItem from="1573476917272" duration="7697000" />
-      <workItem from="1573761650779" duration="4216000" />
+      <workItem from="1573761650779" duration="7862000" />
     </task>
     <servers />
   </component>

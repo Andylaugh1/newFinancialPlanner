@@ -1,0 +1,20 @@
+Id,Value,isPositive,Name,Party,BankAccountId
+1,24.99,FALSE,,Unknown,1
+2,12.99,FALSE,,Audible,1
+3,7.99,FALSE,,Unknown,2
+4,100,FALSE,,Unknown,3
+5,50,FALSE,,Unknown,4
+6,6.99,FALSE,,Unknown,1
+7,12.15,FALSE,,Unknown,1
+8,15.49,FALSE,,Unknown,2
+9,59.99,FALSE,,Unknown,1
+10,70,FALSE,,Unknown,3
+11,1800,TRUE,,Airts,1
+12,500,TRUE,,Andy Laughlin,5
+13,500,FALSE,,Andy Laughlin,1
+14,80,FALSE,,Books Inc,4
+15,13.5,FALSE,,Amazon Uk,1
+16,600,TRUE,,Andy Laughlin,6
+17,600,FALSE,,Andy Laughlin,1
+18,19.99,FALSE,,Tesco,1
+19,10,FALSE,,Lidl,1
