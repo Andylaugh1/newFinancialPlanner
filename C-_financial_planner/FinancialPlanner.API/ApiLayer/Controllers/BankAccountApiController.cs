@@ -26,7 +26,8 @@ namespace FinancialPlanner.API.Controllers
         [HttpGet]
         public IEnumerable<BankAccount> GetAllBankAccounts()
         {
-            return this.Service.GetAll();
+            var bankAccounts = this.Service.GetAll();
+            return bankAccounts;
         }
 
         // GET api/<controller>/5

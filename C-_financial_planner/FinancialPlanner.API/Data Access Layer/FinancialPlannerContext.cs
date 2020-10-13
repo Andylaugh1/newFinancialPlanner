@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Data.Entity.ModelConfiguration.Conventions;
 using FinancialPlanner.API.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,10 +13,6 @@ namespace FinancialPlanner.API.Data_Access_Layer
         public FinancialPlannerContext(DbContextOptions<FinancialPlannerContext> options) : base(options)
         {
             Database.EnsureCreated();
-        }
-
-        public FinancialPlannerContext()
-        {
         }
 
         public DbSet<AccountHolder> AccountHolders { get; set; }

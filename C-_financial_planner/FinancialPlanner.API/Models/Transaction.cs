@@ -17,6 +17,7 @@ namespace FinancialPlanner.API.Models
         public bool IsPositive { get; set; }
         public string Name { get; set; }
         public string Party { get; set; }
+        public DateTimeOffset DateAndTime { get; set; }
 
         [ForeignKey("BankAccountId")]
         public virtual BankAccount BankAccount { get; set; }
@@ -29,6 +30,8 @@ namespace FinancialPlanner.API.Models
             this.IsPositive = IsPositive;
             this.Name = Name;
             this.Party = Party;
+            this.BankAccountId = BankAccountId;
+            this.DateAndTime = DateAndTime;
         }
     }
 }

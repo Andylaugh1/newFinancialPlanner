@@ -25,9 +25,11 @@ namespace FinancialPlanner.API.Service_Layer
             return this.Repo.GetTransactionById(transactionId);
         }
 
-        public void CreateNewTransaction(string value)
+        public void CreateTransactions(IEnumerable<Transaction> transactions)
         {
-            
+            this.Repo.SaveTransactions(transactions);
+            var bankAccountService = new BankAccountService(this.Repo);
+            bankAccountService.UpdateAccountBalances(transactions);
         }
      
     }

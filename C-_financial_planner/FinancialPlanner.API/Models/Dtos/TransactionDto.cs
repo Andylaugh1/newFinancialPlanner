@@ -12,6 +12,7 @@ namespace FinancialPlanner.API.Models
         public bool isPositive { get; set; }
         public string name { get; set; }
         public string party { get; set; }
+        public DateTimeOffset DateAndTime { get; set; }
 
         public TransactionDto(double value, bool isPositive, string party)
         {
@@ -20,6 +21,7 @@ namespace FinancialPlanner.API.Models
             this.isPositive = isPositive;
             this.name = name;
             this.party = party;
+            this.DateAndTime = DateAndTime;
         }
     }
 }

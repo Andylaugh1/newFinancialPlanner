@@ -12,8 +12,10 @@ namespace FinancialPlanner.API.Data_Access_Layer
         IEnumerable<Transaction> GetAllTransactions();
         IEnumerable<Transaction> GetTransactionsForIdSet(IEnumerable<int> idSet);
         Transaction GetTransactionById(int id);
+        void SaveTransactions(IEnumerable<Transaction> transactions);
         IEnumerable<BankAccount> GetAllBankAccounts();
         IEnumerable<BankAccount> GetBankAccountsForIdSet(IEnumerable<int> idSet);
         BankAccount GetBankAccountById(int id);
+        void SaveUpdatedAccounts(IEnumerable<BankAccount> accounts);
     }
 }

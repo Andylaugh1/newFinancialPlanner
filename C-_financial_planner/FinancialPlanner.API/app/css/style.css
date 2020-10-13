@@ -1,0 +1,52 @@
+.main-container {
+    width: 100%; 
+    background-color: white; 
+    color: #3a87ad;
+}
+
+.main-page {
+    padding:2em;
+    align-content: center;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.page-title {
+    text-align: center;
+}
+
+#transactionsTable {
+    border-collapse: collapse;
+    border: 2px  #0e90d2; 
+    width: 60%
+}
+
+#transactionsTable th {
+    background-color: darkblue;
+    border: 1px solid #ddd;
+    color: #bbbec2;
+}
+
+#transactionsTable td {
+    border: 1px solid #ddd;
+    color: black;
+}
+
+#transactionsTable tr:nth-child(even) {
+    background-color: #7a8288; 
+}
+
+.styled-button {
+    background-color: darkblue;
+    color: #bbbec2;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+    padding: 5px;
+}
+
+.input-label {
+    color: black;
+    background-color: white;
+}

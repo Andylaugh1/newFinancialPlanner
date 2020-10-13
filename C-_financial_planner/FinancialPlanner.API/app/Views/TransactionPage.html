@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="financialPlannerApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello This is The Correct Page</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+</head>
+<body>
+    <link href="/css/style.css" rel="stylesheet"/> 
+<div class="main-container">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <ul class="nav">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Views/TransactionPage.html">Transactions</a></li>
+                <li><a href="/Views/BankAccountPage.html">Bank Accounts</a></li>
+            </ul>
+        </div>
+    </div>
+    <div ng-controller="TransactionController" class="main-page">
+        <div>
+            <div >
+                <h2 class="page-title">Please select which transactions you want to view</h2>
+                <div style="flex-direction: row; display: flex; justify-content: center;">
+                    <button class="styled-button" ng-click="displayAllTransactions()">Show all transactions</button>
+                    <button class="styled-button" ng-click="addNewTransaction()">Add a new transaction</button>
+                </div>
+                <div>
+                    <form ng-Submit="createTransaction()" ng-show="showNewTransactionForm">
+                        <label for="amount">Amount:</label><br>
+                        <input ng-model="transactionToAdd.value" type="number" id="amount" step="0.01" name="amount" ><br>
+                        <label for="name">Name:</label><br>
+                        <input ng-model="transactionToAdd.name" type="text" id="name" name="name"><br><br>
+                        <label for="party">Party:</label><br>
+                        <input ng-model="transactionToAdd.party" type="text" id="party" name="party"><br><br>
+                        <label for="positive">Is transaction a credit or a debit:</label>
+                        <input type="radio" name="positive" ng-model="transactionToAdd.isPositive" ng-value="true" id="positive"/> Credit
+                        <input type="radio" name="negative" ng-model="transactionToAdd.isPositive" ng-value="false" />  Debit
+                        <label for="accountName"> Account Name: </label>
+                        <select ng-model="transactionToAdd.$accountName" name="accountName" id="accountName">
+                            <option ng-repeat="name in bankAccountNames" >{{name}}</option>
+                        </select>
+                        <input type="submit" id="submit" value="Submit">
+                    </form>
+                </div>
+                <div>
+                    <label class="input-label" for="transactionSearch">Search for a transaction by Id:</label>
+                    <input id="transactionSearch" type="number" ng-model="transactionIdToSearch">
+                    <button class="styled-button" ng-click="getSingleTransactionById(transactionIdToSearch)">Search</button>
+                </div>   
+            </div>
+            <div>
+                <div ng-show="displayTransactions" style="display: flex; justify-content: center;" >
+                    <table id="transactionsTable" >
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Party</th>
+                            <th>Account</th>
+                            <th>Amount</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                        </tr>
+                        <tbody ng-repeat="transaction in transactionsToDisplay" style="align-content: center">
+                        <tr>
+                            <td>{{transaction.id}}</td>
+                            <td>{{transaction.name}}</td>
+                            <td>{{transaction.party}}</td>
+                            <td>{{transaction.$accountName}}</td>
+                            <td>{{transaction.value}}</td>
+                            <td>{{transaction.$displayDate}}</td>
+                            <th>{{transaction.$displayTime}}</th>
+                        </tr>
+
+                        </tbody>
+                    </table>        
+                </div>
+            </div>
+            <button type="button" ng-show="addedTransactions.length > 0" ng-click="saveChanges()">Click to save added transactions</button>
+        </div>
+    </div>
+</div>
+
+<script src="../lib/jquery.min.js"></script>
+<script src="../lib/underscore-1.4.4.min.js"></script>
+<script src="../lib/bootstrap.js"></script>
+<script src="../lib/bootstrap.min.js"></script>
+<script src="../lib/angular/angular.js"></script>
+<script src="../lib/angular/angular-resource.js"></script>
+<script src="../node_modules/luxon-angular"></script>
+<script src="../app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.0/moment.js"></script>->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/1.0.1/angular-moment.js"></script>
+<script src="../node_modules/moment-timezone/moment-timezone.js"></script>
+<script src="../Controllers/TransactionController.js"></script>
+<script src="../Services/TransactionsService.js"></script>
+<script src="../Services/BankAccountService.js"></script>
+<script src="../Services/TimesAndDatesService.js"></script>
+
+</body>
+</html>

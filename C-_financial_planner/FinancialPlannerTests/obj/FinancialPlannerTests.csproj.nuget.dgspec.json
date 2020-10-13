@@ -1,32 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlannerTests/FinancialPlannerTests.csproj": {}
+    "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlannerTests\\FinancialPlannerTests.csproj": {}
   },
   "projects": {
-    "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/FinancialPlanner.API.csproj": {
+    "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlanner.API\\FinancialPlanner.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/FinancialPlanner.API.csproj",
+        "projectUniqueName": "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlanner.API\\FinancialPlanner.API.csproj",
         "projectName": "FinancialPlanner.API",
-        "projectPath": "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/FinancialPlanner.API.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/",
+        "projectPath": "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlanner.API\\FinancialPlanner.API.csproj",
+        "packagesPath": "C:\\Users\\AndyTL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlanner.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/user/.config/NuGet/NuGet.Config"
+          "C:\\Users\\AndyTL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -37,27 +39,67 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.2.0, )"
-            },
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.CookiePolicy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.HttpsPolicy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.StaticFiles": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.0, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[3.1.8, )"
+            },
+            "Moment.js": {
+              "target": "Package",
+              "version": "[2.29.1, )"
             },
             "bootstrap": {
               "target": "Package",
@@ -73,36 +115,47 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlannerTests/FinancialPlannerTests.csproj": {
+    "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlannerTests\\FinancialPlannerTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlannerTests/FinancialPlannerTests.csproj",
+        "projectUniqueName": "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlannerTests\\FinancialPlannerTests.csproj",
         "projectName": "FinancialPlannerTests",
-        "projectPath": "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlannerTests/FinancialPlannerTests.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlannerTests/obj/",
+        "projectPath": "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlannerTests\\FinancialPlannerTests.csproj",
+        "packagesPath": "C:\\Users\\AndyTL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlannerTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/user/.config/NuGet/NuGet.Config"
+          "C:\\Users\\AndyTL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/FinancialPlanner.API.csproj": {
-                "projectPath": "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/FinancialPlanner.API.csproj"
+              "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlanner.API\\FinancialPlanner.API.csproj": {
+                "projectPath": "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlanner.API\\FinancialPlanner.API.csproj"
               }
             }
           }
@@ -114,12 +167,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.2.0, )"
-            },
             "MSTest.TestAdapter": {
               "target": "Package",
               "version": "[1.3.2, )"
@@ -132,13 +181,55 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.CookiePolicy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.HttpsPolicy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.StaticFiles": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -158,7 +249,16 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

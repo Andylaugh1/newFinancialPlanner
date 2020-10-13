@@ -16,10 +16,12 @@ namespace FinancialPlanner.API.Models
 
         public string AccountName { get; set; }
         public BankAccountType AccountType { get; set; }
-        public virtual ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
+        public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
         public int AccountNumber { get; set; }
         public int SortCode { get; set; }
-        public double Balance { get; set; }
+        public double StartingBalance { get; set; }
+        
+        public double CurrentBalance { get; set; }
 
         [ForeignKey("AccountHolderId")]
         public virtual AccountHolder AccountHolder { get; set; }
@@ -34,7 +36,8 @@ namespace FinancialPlanner.API.Models
             this.AccountHolderId = AccountHolderId;
             this.AccountNumber = AccountNumber;
             this.SortCode = SortCode;
-            this.Balance = Balance;
+            this.StartingBalance = StartingBalance;
+            this.CurrentBalance = CurrentBalance;
         }
 
         public List<int> GetAllTransactionIds()
@@ -76,15 +79,15 @@ namespace FinancialPlanner.API.Models
             return null;
         }
 
-        public void AddNewTransactionToAccount(Transaction transaction)
+        private void AddNewTransactionToAccount(Transaction transaction)
         {
             this.Transactions.Add(transaction);
         }
 
         public void UpdateBalance(double amount)
         {
-            double newBalance = this.Balance += amount;
-            this.Balance = newBalance;
+            double newBalance = this.CurrentBalance += amount;
+            this.CurrentBalance = newBalance;
         }
 
         //Checks if the transaction is positive or negative and then calls the updateBalance and AddToAccountMethods
@@ -103,6 +106,21 @@ namespace FinancialPlanner.API.Models
 
             this.UpdateBalance(positiveOrNegativeAmount);
             this.AddNewTransactionToAccount(transaction);
+        }
+
+        public void CalculateCurrentBalanceIncludingExistingTransactions()
+        {
+            foreach (var transaction in this.Transactions)
+            {
+                if (transaction.IsPositive)
+                {
+                    UpdateBalance(transaction.Value);
+                }
+                else
+                {
+                    UpdateBalance(-transaction.Value);
+                }
+            }
         }
     }
 }

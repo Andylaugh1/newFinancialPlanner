@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.3.2/build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.3.2/build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.3.2/build/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" t="Include" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\Users\AndyTL\.nuget\packages\mstest.testadapter\1.3.2\build\_common\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\AndyTL\.nuget\packages\mstest.testadapter\1.3.2\build\_common\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" t="Include" />
+    <e p="C:\Users\AndyTL\.nuget\packages\mstest.testadapter\1.3.2\build\netcoreapp1.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" t="Include" />
+    <e p="C:\Users\AndyTL\AppData\local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\AndyTL\AppData\local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_FinancialPlanner.436550752.00" t="ExcludeRecursive" />
+    <e p="C:\Users\AndyTL\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\AndyTL\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\AndyTL\AppData\Roaming\JetBrains\Rider2020.2\javascript\extLibs\http_ajax.googleapis.com_ajax_libs_angularjs_1.6.4_angular.js" t="IncludeRecursive" />
+    <e p="C:\Users\AndyTL\AppData\Roaming\JetBrains\Rider2020.2\javascript\extLibs\http_cdnjs.cloudflare.com_ajax_libs_angular-moment_1.0.1_angular-moment.js" t="IncludeRecursive" />
+    <e p="C:\Users\AndyTL\AppData\Roaming\JetBrains\Rider2020.2\javascript\extLibs\http_cdnjs.cloudflare.com_ajax_libs_angular.js_1.6.1_angular-route.js" t="IncludeRecursive" />
+    <e p="C:\Users\AndyTL\AppData\Roaming\JetBrains\Rider2020.2\javascript\extLibs\http_cdnjs.cloudflare.com_ajax_libs_moment.js_2.18.1_moment.js" t="IncludeRecursive" />
+    <e p="C:\Users\AndyTL\AppData\Roaming\JetBrains\Rider2020.2\javascript\extLibs\http_cdnjs.cloudflare.com_ajax_libs_moment.js_2.8.0_moment.js" t="IncludeRecursive" />
+    <e p="C:\Users\AndyTL\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\AndyTL\Documents\Personal\c#_projects\newFinancialPlanner\newFinancialPlanner\C-_financial_planner" t="IncludeFlat">
       <e p="FinancialPlanner.API" t="IncludeRecursive">
+        <e p=".eslintrc.js" t="Include" />
         <e p="ApiLayer" t="Include">
           <e p="Controllers" t="Include">
             <e p="BankAccountApiController.cs" t="Include" />
@@ -13,7 +24,61 @@
             <e p="TransactionsApiController.cs" t="Include" />
           </e>
         </e>
-        <e p="Application" t="Include" />
+        <e p="App" t="Include">
+          <e p="app.js" t="Include" />
+          <e p="Controllers" t="Include">
+            <e p="BankAccountController.js" t="Include" />
+            <e p="MainController.js" t="Include" />
+            <e p="TransactionController.js" t="Include" />
+          </e>
+          <e p="css" t="Include">
+            <e p="bootstrap.css" t="Include" />
+            <e p="bootstrap.min.css" t="Include" />
+            <e p="style.css" t="Include" />
+          </e>
+          <e p="index.html" t="Include" />
+          <e p="lib" t="Include">
+            <e p="angular" t="Include">
+              <e p="angular-resource.js" t="Include" />
+              <e p="angular-resource.min.js" t="Include" />
+              <e p="angular-route.js" t="Include" />
+              <e p="angular-route.min.js" t="Include" />
+              <e p="angular-sanitize.js" t="Include" />
+              <e p="angular-sanitize.min.js" t="Include" />
+              <e p="angular.js" t="Include" />
+              <e p="angular.min.js" t="Include" />
+            </e>
+            <e p="bootstrap.js" t="Include" />
+            <e p="bootstrap.min.js" t="Include" />
+            <e p="jquery.min.js" t="Include" />
+            <e p="underscore-1.4.4.min.js" t="Include" />
+          </e>
+          <e p="node_modules\@types" t="IncludeRecursive">
+            <e p="luxon" t="IncludeRecursive" />
+            <e p="underscore" t="IncludeRecursive" />
+          </e>
+          <e p="node_modules\angularjs" t="IncludeRecursive" />
+          <e p="node_modules\bootstrap" t="IncludeRecursive" />
+          <e p="node_modules\bower" t="IncludeRecursive" />
+          <e p="node_modules\eslint" t="IncludeRecursive" />
+          <e p="node_modules\jquery" t="IncludeRecursive" />
+          <e p="node_modules\luxon" t="IncludeRecursive" />
+          <e p="node_modules\luxon-angular" t="IncludeRecursive" />
+          <e p="node_modules\moment" t="IncludeRecursive" />
+          <e p="node_modules\moment-timezone" t="IncludeRecursive" />
+          <e p="node_modules\tslib" t="IncludeRecursive" />
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="Services" t="Include">
+            <e p="BankAccountService.js" t="Include" />
+            <e p="TimesAndDatesService.js" t="Include" />
+            <e p="TransactionsService.js" t="Include" />
+          </e>
+          <e p="Views" t="Include">
+            <e p="BankAccountPage.html" t="Include" />
+            <e p="TransactionPage.html" t="Include" />
+          </e>
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Data Access Layer" t="Include">
           <e p="FinancialPlannerContext.cs" t="Include" />
@@ -25,7 +90,14 @@
           <e p="BankAccountType.cs" t="Include" />
         </e>
         <e p="FinancialPlanner.API.csproj" t="IncludeRecursive" />
-        <e p="Migrations" t="Include" />
+        <e p="hosting.json" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20201001070230_addCurrentBalanceAndUpdateBalanceName.cs" t="Include" />
+          <e p="20201001070230_addCurrentBalanceAndUpdateBalanceName.Designer.cs" t="Include" />
+          <e p="20201007085154_AddDateTimeOffsetToTransactionObject.cs" t="Include" />
+          <e p="20201007085154_AddDateTimeOffsetToTransactionObject.Designer.cs" t="Include" />
+          <e p="FinancialPlannerContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="AccountHolder.cs" t="Include" />
           <e p="BankAccount.cs" t="Include" />
@@ -37,20 +109,14 @@
           </e>
           <e p="Transaction.cs" t="Include" />
         </e>
-        <e p="node_modules/angularjs" t="IncludeRecursive" />
-        <e p="node_modules/bootstrap" t="IncludeRecursive" />
-        <e p="node_modules/bower" t="IncludeRecursive" />
-        <e p="node_modules/eslint" t="IncludeRecursive" />
-        <e p="node_modules/jquery" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="FinancialPlanner.API.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
         <e p="package-lock.json" t="Include" />
-        <e p="package.json" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
@@ -60,46 +126,6 @@
           <e p="TransactionService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="wwwroot" t="Include">
-          <e p=".eslintrc.js" t="Include" />
-          <e p="App" t="Include">
-            <e p="css" t="Include">
-              <e p="bootstrap.css" t="Include" />
-              <e p="bootstrap.min.css" t="Include" />
-            </e>
-            <e p="js" t="Include">
-              <e p="app.js" t="Include" />
-              <e p="Controllers" t="Include">
-                <e p="BankAccountController.js" t="Include" />
-                <e p="MainController.js" t="Include" />
-                <e p="TransactionController.js" t="Include" />
-              </e>
-              <e p="Services" t="Include">
-                <e p="BankAccountService.js" t="Include" />
-                <e p="TransactionsService.js" t="Include" />
-              </e>
-            </e>
-            <e p="lib" t="Include">
-              <e p="angular" t="Include">
-                <e p="angular-resource.js" t="Include" />
-                <e p="angular-resource.min.js" t="Include" />
-                <e p="angular-route.js" t="Include" />
-                <e p="angular-route.min.js" t="Include" />
-                <e p="angular-sanitize.js" t="Include" />
-                <e p="angular-sanitize.min.js" t="Include" />
-                <e p="angular.js" t="Include" />
-                <e p="angular.min.js" t="Include" />
-              </e>
-              <e p="bootstrap.js" t="Include" />
-              <e p="bootstrap.min.js" t="Include" />
-              <e p="jquery.min.js" t="Include" />
-              <e p="underscore-1.4.4.min.js" t="Include" />
-            </e>
-          </e>
-          <e p="BankAccountPage.html" t="Include" />
-          <e p="index.html" t="Include" />
-          <e p="TransactionPage.html" t="Include" />
-        </e>
       </e>
       <e p="FinancialPlanner.sln" t="IncludeFlat" />
       <e p="FinancialPlannerTests" t="IncludeRecursive">
@@ -109,7 +135,7 @@
         <e p="FinancialPlannerTests.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="FinancialPlannerTests.AssemblyInfo.cs" t="Include" />
               <e p="FinancialPlannerTests.Program.cs" t="Include" />
             </e>
@@ -119,10 +145,5 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_FinancialPlanner.1466133304.00" t="ExcludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
   </component>
 </project>

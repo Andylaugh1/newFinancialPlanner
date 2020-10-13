@@ -1,22 +1,23 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/FinancialPlanner.API.csproj",
+    "projectUniqueName": "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlanner.API\\FinancialPlanner.API.csproj",
     "projectName": "FinancialPlanner.API",
-    "projectPath": "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/FinancialPlanner.API.csproj",
-    "outputPath": "/Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/",
+    "projectPath": "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlanner.API\\FinancialPlanner.API.csproj",
+    "outputPath": "C:\\Users\\AndyTL\\Documents\\Personal\\c#_projects\\newFinancialPlanner\\newFinancialPlanner\\C-_financial_planner\\FinancialPlanner.API\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
-      "netcoreapp3.0"
+      "netcoreapp3.1"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
-      "netcoreapp3.0": {
+      "netcoreapp3.1": {
         "projectReferences": {}
       }
     },
@@ -27,27 +28,67 @@
     }
   },
   "frameworks": {
-    "netcoreapp3.0": {
+    "netcoreapp3.1": {
       "dependencies": {
-        "EntityFramework": {
-          "target": "Package",
-          "version": "[6.2.0, )"
-        },
         "Microsoft.AspNet.WebApi.Client": {
           "target": "Package",
           "version": "[5.2.7, )"
+        },
+        "Microsoft.AspNetCore.Authentication": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.Authorization": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.CookiePolicy": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.HttpsPolicy": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.1.8, )"
+        },
+        "Microsoft.AspNetCore.Identity.UI": {
+          "target": "Package",
+          "version": "[3.1.8, )"
+        },
+        "Microsoft.AspNetCore.Routing": {
+          "target": "Package",
+          "version": "[2.2.2, )"
+        },
+        "Microsoft.AspNetCore.Session": {
+          "target": "Package",
+          "version": "[2.2.0, )"
         },
         "Microsoft.AspNetCore.StaticFiles": {
           "target": "Package",
           "version": "[2.2.0, )"
         },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.1.8, )"
+        },
         "Microsoft.EntityFrameworkCore.SqlServer": {
           "target": "Package",
-          "version": "[2.2.0, )"
+          "version": "[3.0.0, )"
         },
-        "Npgsql.EntityFrameworkCore.PostgreSQL": {
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
           "target": "Package",
-          "version": "[3.0.1, )"
+          "version": "[3.1.8, )"
+        },
+        "Moment.js": {
+          "target": "Package",
+          "version": "[2.29.1, )"
         },
         "bootstrap": {
           "target": "Package",
@@ -63,7 +104,16 @@
         "net48"
       ],
       "assetTargetFallback": true,
-      "warn": true
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
     }
   }
 }

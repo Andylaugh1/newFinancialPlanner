@@ -40,7 +40,8 @@ namespace FinancialPlannerTests
             testAccount.SortCode = 123456;
             testAccount.Transactions.Add(testTransaction1);
             testAccount.Transactions.Add(testTransaction2);
-            testAccount.Balance = 100.00;
+            testAccount.StartingBalance = 100.00;
+            testAccount.CurrentBalance = testAccount.StartingBalance;
             testAccount.AccountName = "Andy Current Account";
             testAccount.AccountType = BankAccountType.IND_CURRENT_ACCOUNT;
         }
@@ -53,7 +54,7 @@ namespace FinancialPlannerTests
             Assert.AreEqual(12345678, testAccount.AccountNumber);
             Assert.AreEqual(BankAccountType.IND_CURRENT_ACCOUNT, testAccount.AccountType);
             Assert.AreEqual(123456, testAccount.SortCode);
-            Assert.AreEqual(100.00, testAccount.Balance);
+            Assert.AreEqual(100.00, testAccount.StartingBalance);
         }
 
         [TestMethod]
@@ -85,7 +86,7 @@ namespace FinancialPlannerTests
         {
             var amount = testTransaction1.Value;
             testAccount.UpdateBalance(amount);
-            Assert.AreEqual(124.99, testAccount.Balance);
+            Assert.AreEqual(124.99, testAccount.StartingBalance);
         }
 
         [TestMethod]
@@ -99,7 +100,7 @@ namespace FinancialPlannerTests
             testAccount.ProcessTransactionOnAccount(testTransaction3);
 
             var result1 = testAccount.GetTransactionById(testTransaction3.Id);
-            var result2 = testAccount.Balance;
+            var result2 = testAccount.StartingBalance;
 
             Assert.AreEqual(3, result1.Id);
             Assert.AreEqual(120.00, result2);
@@ -116,7 +117,7 @@ namespace FinancialPlannerTests
             testAccount.ProcessTransactionOnAccount(testTransaction3);
 
             var result1 = testAccount.GetTransactionById(testTransaction3.Id);
-            var result2 = testAccount.Balance;
+            var result2 = testAccount.StartingBalance;
 
             Assert.AreEqual(3, result1.Id);
             Assert.AreEqual(80.00, result2);

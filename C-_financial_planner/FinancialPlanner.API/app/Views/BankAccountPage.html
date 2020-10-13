@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="financialPlannerApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello This is The Correct Page</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+</head>
+<body>
+    <link href="/css/style.css" rel="stylesheet"/>
+<div class="main-container"  >
+    <div class="navbar">
+        <div class="navbar-inner">
+            <ul class="nav">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Views/TransactionPage.html">Transactions</a></li>
+                <li><a href="/Views/BankAccountPage.html">Bank Accounts</a></li>
+            </ul>
+        </div>
+    </div>
+    <div ng-controller="BankAccountController" class="main-page">
+        <div>
+            <h2 class="page-title">Account Overview</h2>
+            <div style="display: flex; justify-content: center">
+                <button class="styled-button"ng-click="displayAllAccounts()">Click here to see an overview of your bank accounts</button>
+            </div>
+            <div style="display: flex; justify-content: center; padding-top: 15px">
+                <table ng-show="displayAccounts" style="border: 1px solid #0e90d2; align-content: center; width: border-box">
+                    <tr>
+                        <th>Account Name</th>
+                        <th>Account Type</th>   
+                        <th>Account Number</th>
+                        <th>Sort Code</th>
+                        <th>Starting Balance</th>
+                        <th>Current Balance</th>
+                    </tr>
+                    <tbody ng-repeat="account in bankAccounts" style="align-content: center">
+                    <tr>
+                        <td>{{account.accountName}}</td>
+                        <td>{{account.accountType}}</td>
+                        <td>{{account.accountNumber}}</td>
+                        <td>{{account.sortCode}}</td>
+                        <td>{{account.startingBalance}}</td>
+                        <td>{{account.currentBalance}}</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<script src="../lib/jquery.min.js"></script>
+<script src="../lib/underscore-1.4.4.min.js"></script>
+<script src="../lib/bootstrap.js"></script>
+<script src="../lib/bootstrap.min.js"></script>
+<script src="../lib/angular/angular.js"></script>
+<script src="../lib/angular/angular-resource.js"></script>
+<script src="../app.js"></script>
+<script src="../Controllers/BankAccountController.js"></script>
+<script src="../Services/BankAccountService.js"></script>
+
+</body>
+</html>

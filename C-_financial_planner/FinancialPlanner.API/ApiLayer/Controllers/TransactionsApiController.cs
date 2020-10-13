@@ -38,9 +38,9 @@ namespace FinancialPlanner.API.Controllers
 
         // POST api/<controller>
         [HttpPost]
-        public void PostTransaction([FromBody]string value)
+        public void PostTransaction([FromBody]List<Transaction> transactions)
         {
-            this.Service.CreateNewTransaction(value);
+            this.Service.CreateTransactions(transactions);
         }
 
         // PUT api/<controller>/5

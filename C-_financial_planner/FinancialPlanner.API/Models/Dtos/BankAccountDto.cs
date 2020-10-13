@@ -15,7 +15,10 @@ namespace FinancialPlanner.API.Models
         public int accountHolderId { get; set; }
         public int accountNumber { get; set; }
         public int sortCode { get; set; }
-        public double balance { get; set; }
+        
+        public double startingBalance { get; set; }
+        
+        public double currentBalance { get; set; }
 
         public BankAccountDto(string accountName, BankAccountType accountType)
         {
@@ -26,7 +29,8 @@ namespace FinancialPlanner.API.Models
             this.accountHolderId = accountHolderId;
             this.accountNumber = accountNumber;
             this.sortCode = sortCode;
-            this.balance = balance;
+            this.startingBalance = startingBalance;
+            this.currentBalance = currentBalance;
         }
     }
 }

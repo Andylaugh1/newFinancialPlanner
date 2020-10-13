@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.FinancialPlanner.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../:\Users\AndyTL\Documents\Personal\c#_projects\newFinancialPlanner\newFinancialPlanner\C-_financial_planner\.idea\.idea.FinancialPlanner\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

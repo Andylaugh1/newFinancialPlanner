@@ -12,3 +12,10 @@
 /Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp2.2/FinancialPlanner.API.RazorTargetAssemblyInfo.cache
 /Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp2.2/FinancialPlanner.API.dll
 /Users/user/Documents/c#_practice/financial_planner/C-_financial_planner/FinancialPlanner.API/obj/Debug/netcoreapp2.2/FinancialPlanner.API.pdb
+C:\Users\AndyTL\Documents\Personal\c#_projects\newFinancialPlanner\newFinancialPlanner\C-_financial_planner\FinancialPlanner.API\obj\Debug\netcoreapp2.2\FinancialPlanner.API.csprojAssemblyReference.cache
+C:\Users\AndyTL\Documents\Personal\c#_projects\newFinancialPlanner\newFinancialPlanner\C-_financial_planner\FinancialPlanner.API\obj\Debug\netcoreapp2.2\FinancialPlanner.API.RazorAssemblyInfo.cache
+C:\Users\AndyTL\Documents\Personal\c#_projects\newFinancialPlanner\newFinancialPlanner\C-_financial_planner\FinancialPlanner.API\obj\Debug\netcoreapp2.2\FinancialPlanner.API.RazorAssemblyInfo.cs
+C:\Users\AndyTL\Documents\Personal\c#_projects\newFinancialPlanner\newFinancialPlanner\C-_financial_planner\FinancialPlanner.API\obj\Debug\netcoreapp2.2\FinancialPlanner.API.AssemblyInfoInputs.cache
+C:\Users\AndyTL\Documents\Personal\c#_projects\newFinancialPlanner\newFinancialPlanner\C-_financial_planner\FinancialPlanner.API\obj\Debug\netcoreapp2.2\FinancialPlanner.API.AssemblyInfo.cs
+C:\Users\AndyTL\Documents\Personal\c#_projects\newFinancialPlanner\newFinancialPlanner\C-_financial_planner\FinancialPlanner.API\obj\Debug\netcoreapp2.2\FinancialPlanner.API.dll
+C:\Users\AndyTL\Documents\Personal\c#_projects\newFinancialPlanner\newFinancialPlanner\C-_financial_planner\FinancialPlanner.API\obj\Debug\netcoreapp2.2\FinancialPlanner.API.pdb
