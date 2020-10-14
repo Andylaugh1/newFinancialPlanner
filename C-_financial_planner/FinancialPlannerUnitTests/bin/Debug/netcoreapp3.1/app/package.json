@@ -1,0 +1,27 @@
+{
+  "name": "FinancialPlanner.API",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/underscore": "^1.10.23",
+    "angularjs": "0.0.1",
+    "bootstrap": "^4.3.1",
+    "bower": "^1.8.8",
+    "jquery": "^3.4.1",
+    "luxon": "^1.25.0",
+    "luxon-angular": "^3.0.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/luxon": "^1.25.0",
+    "eslint": "^6.6.0"
+  }
+}

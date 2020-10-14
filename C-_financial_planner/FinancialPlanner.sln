@@ -5,10 +5,7 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialPlanner.API", "FinancialPlanner.API\FinancialPlanner.API.csproj", "{AC47E1DA-03D3-469D-B75E-A5C56EC6CC9B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialPlannerTests", "FinancialPlannerTests\FinancialPlannerTests.csproj", "{DA7B0143-C7FD-4331-9171-481DD6265005}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AC47E1DA-03D3-469D-B75E-A5C56EC6CC9B} = {AC47E1DA-03D3-469D-B75E-A5C56EC6CC9B}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlannerUnitTests", "FinancialPlannerUnitTests\FinancialPlannerUnitTests.csproj", "{B3AFCE1A-B17B-4A00-B604-AF5457A10071}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +17,10 @@ Global
 		{AC47E1DA-03D3-469D-B75E-A5C56EC6CC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC47E1DA-03D3-469D-B75E-A5C56EC6CC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC47E1DA-03D3-469D-B75E-A5C56EC6CC9B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA7B0143-C7FD-4331-9171-481DD6265005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA7B0143-C7FD-4331-9171-481DD6265005}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA7B0143-C7FD-4331-9171-481DD6265005}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA7B0143-C7FD-4331-9171-481DD6265005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3AFCE1A-B17B-4A00-B604-AF5457A10071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AFCE1A-B17B-4A00-B604-AF5457A10071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AFCE1A-B17B-4A00-B604-AF5457A10071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AFCE1A-B17B-4A00-B604-AF5457A10071}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
