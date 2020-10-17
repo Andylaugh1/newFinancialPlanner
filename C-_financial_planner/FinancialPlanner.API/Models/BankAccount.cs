@@ -20,9 +20,8 @@ namespace FinancialPlanner.API.Models
         public int AccountNumber { get; set; }
         public int SortCode { get; set; }
         public double StartingBalance { get; set; }
-        
         public double CurrentBalance { get; set; }
-
+        
         [ForeignKey("AccountHolderId")]
         public virtual AccountHolder AccountHolder { get; set; }
         public int AccountHolderId { get; set; }

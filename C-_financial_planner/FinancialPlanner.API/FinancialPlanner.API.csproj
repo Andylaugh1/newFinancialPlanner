@@ -5,7 +5,10 @@
     <ApplicationIcon />
     <OutputType>WinExe</OutputType>
     <StartupObject />
+
+    <Nullable>enable</Nullable>
   </PropertyGroup>
+  
 
   <ItemGroup>
     <Folder Include="ApiLayer" />

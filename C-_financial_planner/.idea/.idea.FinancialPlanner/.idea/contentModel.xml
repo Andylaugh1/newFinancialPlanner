@@ -93,6 +93,9 @@
           <e p="BankAccountType.cs" t="Include" />
         </e>
         <e p="FinancialPlanner.API.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="BankAccountFactory.cs" t="Include" />
+        </e>
         <e p="hosting.json" t="Include" />
         <e p="Migrations" t="Include">
           <e p="20201001070230_addCurrentBalanceAndUpdateBalanceName.cs" t="Include" />
@@ -141,7 +144,10 @@
             </e>
           </e>
         </e>
-        <e p="UnitTest1.cs" t="Include" />
+        <e p="UnitTests" t="Include">
+          <e p="BankAccountTests.cs" t="Include" />
+          <e p="TransactionTests.cs" t="Include" />
+        </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
