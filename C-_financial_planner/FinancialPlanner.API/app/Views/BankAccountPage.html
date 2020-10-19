@@ -21,10 +21,10 @@
         <div>
             <h2 class="page-title">Account Overview</h2>
             <div style="display: flex; justify-content: center">
-                <button class="styled-button"ng-click="displayAllAccounts()">Click here to see an overview of your bank accounts</button>
+                <button class="styled-button" ng-click="displayAllAccounts()">Click here to see an overview of your bank accounts</button>
             </div>
-            <div style="display: flex; justify-content: center; padding-top: 15px">
-                <table ng-show="displayAccounts" style="border: 1px solid #0e90d2; align-content: center; width: border-box">
+            <div style="display: flex; justify-content: center; padding-top: 15px; padding-bottom: 15px">
+                <table ng-show="displayAccounts" class="overviewTable">
                     <tr>
                         <th>Account Name</th>
                         <th>Account Type</th>   
@@ -46,6 +46,27 @@
                     </tbody>
                 </table>
             </div>
+            <div style="display: flex; justify-content: center">
+                <button class="styled-button" ng-click="makeTransferBetweenAccounts()">Quick transfer between accounts</button>
+            </div>
+            <div>
+                <form ng-Submit="createTransaction()" ng-show="showNewTransactionForm">
+                    <label for="amount">Amount:</label><br>
+                    <input ng-model="transactionToAdd.value" type="number" id="amount" step="0.01" name="amount" ><br>
+                    <label for="name">Name:</label><br>
+                    <input ng-model="transactionToAdd.name" type="text" id="name" name="name"><br><br>
+                    <label for="party">Party:</label><br>
+                    <input ng-model="transactionToAdd.party" type="text" id="party" name="party"><br><br>
+                    <label for="positive">Is transaction a credit or a debit:</label>
+                    <input type="radio" name="positive" ng-model="transactionToAdd.isPositive" ng-value="true" id="positive"/> Credit
+                    <input type="radio" name="negative" ng-model="transactionToAdd.isPositive" ng-value="false" />  Debit
+                    <label for="fromAccount"> From Account: </label>
+                    <select ng-model="" name="fromAccount" id="fromAccount">
+                        <option ng-repeat="name in bankAccountNames" >{{name}}</option>
+                    </select>
+                    <input type="submit" id="submit" value="Submit">
+                </form>
+            </div>
             
         </div>
     </div>
@@ -60,6 +81,11 @@
 <script src="../app.js"></script>
 <script src="../Controllers/BankAccountController.js"></script>
 <script src="../Services/BankAccountService.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.0/moment.js"></script>->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/1.0.1/angular-moment.js"></script>
+<script src="../node_modules/moment-timezone/moment-timezone.js"></script>
 
 </body>
 </html>

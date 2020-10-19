@@ -83,7 +83,7 @@ namespace FinancialPlanner.API.Models
             this.Transactions.Add(transaction);
         }
 
-        public void UpdateBalance(double amount)
+        private void UpdateBalance(double amount)
         {
             double newBalance = this.CurrentBalance += amount;
             this.CurrentBalance = newBalance;

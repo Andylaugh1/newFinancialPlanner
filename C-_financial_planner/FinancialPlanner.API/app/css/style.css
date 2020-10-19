@@ -17,24 +17,24 @@
     text-align: center;
 }
 
-#transactionsTable {
+.overviewTable {
     border-collapse: collapse;
     border: 2px  #0e90d2; 
     width: 60%
 }
 
-#transactionsTable th {
+.overviewTable th {
     background-color: darkblue;
     border: 1px solid #ddd;
     color: #bbbec2;
 }
 
-#transactionsTable td {
+.overviewTable td {
     border: 1px solid #ddd;
     color: black;
 }
 
-#transactionsTable tr:nth-child(even) {
+.overviewTable tr:nth-child(even) {
     background-color: #7a8288; 
 }
 
